@@ -1,0 +1,189 @@
+.pict1{
+    position: center;
+    margin: 95px 1370px;
+    padding: 0px;
+}
+.pict2{
+    position: center;
+    margin: 210px 250px;
+    padding: 0px 0px;
+}
+.text3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 29px;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    right: 30%;
+}
+.tab{
+    margin-bottom: 2vh;
+    margin-right: 10vh;
+    text-align: center;
+}
+.title{
+    font-family: monospace;
+}
+.button-8 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 0px 50px;
+    position: relative;
+    color: black;
+    border: 1px solid #000000;
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    float: left;
+}
+.button-8:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+}
+.button-9 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: -240px -137px;
+    position: relative;
+    color: black;
+    border: 1px solid #000000;
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    float: left;
+}
+.button-9:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+}
+.button-10 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 300px -137px;
+    position: relative;
+    color: black;
+    border: 1px solid #000000;
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    float: left;
+}
+.button-10:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+.pressed-button:hover {
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+.button-4 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 80px;
+    margin: 120px 1370px;
+    position: relative;
+    color: black;
+    border: 1px solid #000000;
+    background: none;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    float: left;
+}
+.button-4:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+body{
+    font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 700px;
+    height: 300px;
+    margin: -500px 740px;
+}
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+.text-copy:nth-child(1){
+    stroke: #5C2B20;
+    animation-delay: -2s;
+}
+.text-copy:nth-child(2){
+    stroke: #875348;
+    animation-delay: -3s;
+}
+.text-copy:nth-child(3){
+    stroke: #E88B76;
+    animation-delay: -4s;
+}
+.text-copy:nth-child(4){
+    stroke: #CEA08B;
+    animation-delay: -5s;
+}
+.text-copy:nth-child(5){
+    stroke: #C0533C;
+    animation-delay: -6s;
+}
+.text-copy:nth-child(6){
+    stroke: #764338;
+    animation-delay: -7s;
+}
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+body{
+    font-family: Arial;
+}

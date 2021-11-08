@@ -1,0 +1,196 @@
+.text{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.button-1 {
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: .3em;
+    top: 20px;
+    left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.button-1:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: #BC8F8F;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.button-1:hover:before {
+    transform: translate(4px, 4px);
+}
+.button-2 {
+    color: #232323;
+    top: 20px;
+    left: 55%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.button-2:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: #BC8F8F;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.button-2:hover:before {
+    transform: translate(4px, 4px);
+}
+.button-3 {
+    color: #232323;
+    top: 120px;
+    left: 22.5%;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.button-3:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: #BC8F8F;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.button-3:hover:before {
+    transform: translate(4px, 4px);
+}
+.button-4 {
+    color: #232323;
+    top: 40px;
+    left: 9%;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 19px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.button-4:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: #BC8F8F;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.button-4:hover:before {
+    transform: translate(4px, 4px);
+}
+
+.koguvcavis-varazdel {
+    padding: 140px 0;
+    color: #2f2f2f;
+    text-align: center;
+}
+.sestim-donials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+
+.sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #642609;
+    margin: 23px auto;
+}
+
+.sagestim-lonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vemotau-vokusipol{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonial {
+    background: #F6E7E0;
+    padding: 30px;
+}
+.testimonial img{
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+}
+.gecedanam{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.apogered-gselected{
+    color: #642609;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .vemotau-vokusipol{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .vemotau-vokusipol{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
