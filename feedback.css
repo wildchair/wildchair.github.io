@@ -71,7 +71,7 @@
 .button-3 {
     color: #232323;
     top: 120px;
-    left: 22.5%;
+    left: 15%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
@@ -101,8 +101,8 @@
 }
 .button-4 {
     color: #232323;
-    top: 40px;
-    left: 9%;
+    top: 20px;
+    left: 1%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
@@ -193,4 +193,9 @@
         flex: 100%;
         max-width: 100%;
     }
+.text8{
+    font-weight: normal;
+    font-size: 30px;
+
+}
 }

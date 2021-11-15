@@ -346,9 +346,10 @@ body{
 svg {
     display: block;
     font: 10.5em 'Montserrat';
-    width: 960px;
-    height: 300px;
-    margin: -10px 440px;
+    width: 65%;
+    height: 30%;
+    margin-bottom: 40%;
+    margin-left: 25%;
 }
 
 .text-copy {
