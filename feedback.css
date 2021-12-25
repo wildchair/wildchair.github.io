@@ -15,7 +15,7 @@
     font-size: 19px;
     letter-spacing: .3em;
     top: 20px;
-    left: 20%;
+    left: 33%;
     font-family: 'Montserrat', sans-serif;
     padding: 17px 34px 17px 39px;
     transition: .2s ease-in-out;
@@ -70,8 +70,8 @@
 }
 .button-3 {
     color: #232323;
-    top: 120px;
-    left: 15%;
+    top: 20px;
+    left: 40%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
@@ -101,8 +101,8 @@
 }
 .button-4 {
     color: #232323;
-    top: 20px;
-    left: 1%;
+    top: 100px;
+    left: 13%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;

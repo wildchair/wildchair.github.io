@@ -43,7 +43,7 @@
     position: relative;
     font-size: 19px;
     letter-spacing: .3em;
-    top: 90px;
+    top: 250px;
     left: 53.7%;
     font-family: 'Montserrat', sans-serif;
     padding: 17px 34px 17px 39px;
@@ -99,8 +99,8 @@
 }
 .button-3 {
     color: #232323;
-    top: 500px;
-    left: 32.6%;
+    top: 459px;
+    left: 42%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
@@ -132,7 +132,7 @@
 .button-4 {
     color: #232323;
     top: 700px;
-    left: 23%;
+    left: 30%;
     background: transparent;
     border: 1px solid #232323;
     position: relative;
